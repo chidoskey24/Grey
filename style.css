@@ -12,13 +12,19 @@ a {
     color: white;
 }
 
-body {
+main.first {
     background-image: url(./assets/images/hero-image.webp);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: 0 12%;
+    background-position: 0 50%;
     position: relative;
+    /* width: 95vw; */
+    height: 100vh;
 }
+
+/* body {
+    width: 50%;
+} */
 
 header {
     display: flex;
@@ -54,7 +60,7 @@ header > ul li:last-child{
     border-radius: 5px;
 }
 
-section {
+main section.con {
     position: absolute;
     top: 160px;
     left: 140px;
@@ -82,5 +88,354 @@ section {
         span {
             font-weight: bold;
         }
+    }
+}
+
+section.curve {
+    position: absolute;
+    top: 95vh;
+    left: 0;
+
+    img.curves{
+        width: 100vw;
+        
+    }
+}
+
+div.first {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+    font-family: aeonik-regular;
+    height: 48.31px;
+    width: 100%;
+}
+
+
+div.logos {
+    display: flex;
+    align-items: center;
+    width: 75%;
+    margin-left: auto !important;
+    margin-right: auto !important;
+
+    a img {
+        width: 112px;
+        height: 32px;
+    }
+
+    div {
+        border: 1px solid black;
+        margin: 0 20px;
+        height: 20px;
+    }
+
+}
+
+/* section.section {
+    width: 100vw;
+} */
+
+article.contents {
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+div.second {
+    display: flex;
+    height: 162.89px;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin: 50px 0;
+
+    div.mid {
+
+        margin-bottom: 2em;
+
+        h2 {
+            width: 570px;
+            font-family: aeonik-bold;
+            font-size: 56px;
+        }
+
+        svg {
+            width: 100.8px;
+            height: 162.89px;
+        }
+
+        &>div{
+            display: flex;
+        }
+
+        .under {
+            text-align: center;
+
+            h2 {
+                color: #5e19b3;
+            }
+        }
+    }
+
+    /* svg.mirror {
+        display: block;
+        transform: scaleY(-1);
+        transform-origin: center;
+    } */
+}
+
+.caption3, .caption4, .caption5, .caption6 {
+    color: #5e19b3;
+    font-family: aeonik-regular;
+    letter-spacing: 2px;
+}
+
+div.third {
+    background-color: #dde9fb;
+    border-radius: 40px;
+    margin-top: 1rem;
+    padding: 71.875px 0 0 71.875px;
+    width: 100%;
+    height: 640px;
+    display: flex;
+    position: relative;
+
+    div.content3 {
+        display: flex;
+        flex-direction: column;
+        gap: 200px;
+        
+
+        .getnow {
+            color: #2467E3;
+            font-family: aeonik-Medium;
+            gap: 20px;
+
+            span.arrow {
+                height: 10px;
+                width: 20px
+                border: 10px solid #5e19b3;
+                border-radius: 50%;
+            }
+        }
+    }
+
+
+    h3 {
+        font-family: aeonik-bold;
+        font-size: 52.8px;
+        margin: 42.24px 0 10px 0;
+    }
+
+    .get {
+        font-family: aeonik-regular;
+        font-size: 20px;
+        margin-top: 20px;
+    }
+
+    .exchange{
+        position: absolute;
+        right: 0;
+        top: 38%;
+
+        img {
+            border-radius: 0 0 40px 0;
+        }
+    }
+}
+
+
+
+div.fourth {
+    margin-top: 20px;
+    display: flex;
+    gap: 23px;
+    width: 100%;
+
+    div.purple-lady {
+        background-image: url(./assets/images/woman\ purple.webp);
+        background-repeat: no-repeat;
+        background-size: 700px;
+        background-position: -120px 0px;
+        height: 802px;
+        width: 471.99px;
+        border-radius: 40px;
+    }
+
+    .convert {
+        border-radius: 40px;
+        height: 802px;
+        width: 706.01px;
+        background-color: #e9d7fe;
+        background-image: url(./assets/images/currency\ exchange.svg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: 50%;
+        position: relative;
+
+        .content4 {
+            position: absolute;
+            top: 70px;
+            left: 55px;
+
+
+            h3 {
+                font-family: aeonik-bold;
+                font-size: 52.8px;
+                margin: 42.24px 0 10px 0;
+            }
+            
+            .effort {
+                font-family: aeonik-regular;
+                font-size: 20px;
+                margin-top: 20px;
+                margin-bottom: 20px;
+            }
+
+            .convert-money{
+                font-family: aeonik-Medium;
+                color: #2467E3;
+                font-size: 20px;
+            }
+        }
+
+    }
+
+}
+
+
+
+div.fifth {
+    margin-top: 20px;
+    display: flex;
+    background-color: #ecf9da;
+    border-radius: 40px;
+    position: relative;
+    width: 100%;
+    height: 640px;
+
+    div.content5 {
+        padding: 71.875px 0 0 71.875px;
+        display: flex;
+        flex-direction: column;
+        gap: 200px;
+
+
+        .get-card {
+            color: #2467E3;
+            font-family: aeonik-Medium;
+            gap: 20px;
+
+            /* span.arrow {
+                height: 10px;
+                width: 20px border: 10px solid #5e19b3;
+                border-radius: 50%;
+            } */
+        }
+        
+    
+    
+        h3 {
+            font-family: aeonik-bold;
+            font-size: 52.8px;
+            margin: 42.24px 0 10px 0;
+        }
+    
+        .make {
+            font-family: aeonik-regular;
+            font-size: 20px;
+            margin-top: 20px;
+        }
+
+    }
+
+
+    div.cards {
+        position: absolute;
+        right: 60px;
+        bottom: 0;
+
+        img {
+        width: 500px;
+        height: 600px;
+        }
+    }
+
+}
+
+
+
+div.sixth {
+    margin-top: 20px;
+    display: flex;
+    gap: 23px;
+    width: 100%;
+    
+
+    div.yellow-man {
+        background-image: url(./assets/images/man\ yellow.webp);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: ;
+        height: 802px;
+        width: 471.99px;
+        border-radius: 40px;
+        -webkit-transform: scaleX(-1);
+        transform: scaleX(-1);
+    }
+
+    .send {
+        border-radius: 40px;
+        height: 800px;
+        width: 706.01px;
+        background-color: #e9d7fe;
+        background-image: url(./assets/images/money\ transfer.webp);
+        background-repeat: no-repeat;
+        background-size: 659.21px 296px;
+        background-position: 10px 500px;
+        position: relative;
+
+        .content6 {
+            padding: 70.6px 70.6px 0;
+            /* position: absolute;
+            top: 70px;
+            left: 55px; */
+
+
+            h3 {
+                font-family: aeonik-bold;
+                font-size: 52.8px;
+                margin: 42.24px 0 10px 0;
+            }
+
+            .efforts {
+                font-family: aeonik-regular;
+                font-size: 20px;
+                margin-top: 20px;
+                margin-bottom: 20px;
+            }
+
+            .make-transfer {
+                font-family: aeonik-Medium;
+                color: #2467E3;
+                font-size: 20px;
+            }
+        }
+
+    }
+
+}
+
+
+
+section.dark-curve {
+    width: 1496px;
+
+    img {
+        height: 142.32px;
+
     }
 }
