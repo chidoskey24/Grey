@@ -439,3 +439,51 @@ section.dark-curve {
 
     }
 }
+
+
+
+section.dark-bg {
+    display: flex;
+    background-color: black;
+    height: 600px;
+    padding: 120px 0;
+    position: relative;
+
+    .content7 {
+        position: absolute;
+        left: 180px;
+        color: white;
+
+        h1 {
+            font-family: aeonik-bold;
+            font-size: 64px;
+            margin: -10px 0 12.8px;
+        }
+
+        p {
+            margin: 17.6px 0 60px 0;
+            font-size: 17.6px;
+            font-family: aeonik-regular;
+            
+        }
+
+        span {
+            font-family: aeonik-medium;
+            padding: 16px;
+            background-color: #2467E3;
+            border-radius: 10px;
+        }
+    }
+
+    div.hand-phone {
+        position: absolute;
+        right: 300px;
+        bottom: 0;
+
+        img {
+            width: 420px;
+            height: 719.04px;
+        }
+    }
+
+}
